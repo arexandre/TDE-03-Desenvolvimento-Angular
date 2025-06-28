@@ -1,1 +1,36 @@
-<p>convenio-list works!</p>
+<div class="list-container">
+  <h2>Lista de Convênios</h2>
+  <button class="btn btn-add" routerLink="/convenios/novo">Novo Convênio</button>
+
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nome do Convênio</th>
+        <th>Contato</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Exemplo de linha de dados estáticos. No futuro, isso virá de um serviço -->
+      <tr>
+        <td>201</td>
+        <td>Convênio Saúde Total</td>
+        <td>contatosaudetotal.com</td>
+        <td>
+          <button class="btn btn-edit" routerLink="/convenios/editar/201">Editar</button>
+          <button class="btn btn-delete">Excluir</button>
+        </td>
+      </tr>
+      <tr>
+        <td>202</td>
+        <td>Plano Vida Feliz</td>
+        <td>contatovidafeliz.org</td>
+        <td>
+          <button class="btn btn-edit" routerLink="/convenios/editar/202">Editar</button>
+          <button class="btn btn-delete">Excluir</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
