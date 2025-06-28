@@ -1,0 +1,86 @@
+/* Reutilizando estilos base do detalhe de pacientes */
+.detail-container {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.detail-container h2 {
+  color: #343a40;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.detail-item {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #e9ecef;
+  color: #495057;
+  font-size: 1.1rem;
+}
+
+.detail-item strong {
+  color: #007bff;
+  margin-right: 8px;
+}
+
+.detail-actions {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Reutilizando estilos de botões existentes e adicionando o de prontuário */
+.btn-edit {
+  background-color: #ffc107;
+  color: #343a40;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-edit:hover {
+  background-color: #e0a800;
+}
+
+.btn-prontuario {
+  background-color: #6f42c1; /* Roxo */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-prontuario:hover {
+  background-color: #5d35a5;
+}
+
+.btn-back {
+  background-color: #6c757d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+  background-color: #5a6268;
+}

@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./funcionario-list.component.css']
 })
 export class FuncionarioListComponent {
-
+  constructor() { }
 }

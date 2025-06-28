@@ -1,0 +1,85 @@
+.form-container {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  max-width: 600px; /* Largura máxima do formulário */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-container h2 {
+  color: #343a40;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block; /* Cada label em uma nova linha */
+  margin-bottom: 8px;
+  color: #495057;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="tel"] {
+  width: calc(100% - 20px); /* Ocupa a largura total menos o padding */
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="date"]:focus,
+.form-group input[type="tel"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+.form-actions {
+  text-align: right; /* Alinha os botões à direita */
+  margin-top: 30px;
+}
+
+.btn-save {
+  background-color: #007bff; /* Azul */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-save:hover {
+  background-color: #0056b3;
+}
+
+.btn-cancel {
+  background-color: #6c757d; /* Cinza */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cancel:hover {
+  background-color: #5a6268;
+}
