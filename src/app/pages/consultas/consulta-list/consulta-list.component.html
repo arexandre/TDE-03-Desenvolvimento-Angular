@@ -1,1 +1,45 @@
-<p>consulta-list works!</p>
+<div class="list-container">
+  <h2>Lista de Consultas</h2>
+  <button class="btn btn-add" routerLink="/consultas/novo">Nova Consulta</button>
+
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Paciente</th>
+        <th>Médico</th>
+        <th>Data</th>
+        <th>Hora</th>
+        <th>Status</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Exemplo de linha de dados estáticos. No futuro, isso virá de um serviço -->
+      <tr>
+        <td>301</td>
+        <td>João da Silva</td>
+        <td>Dra. Ana Costa</td>
+        <td>2025-07-01</td>
+        <td>10:00</td>
+        <td>Agendada</td>
+        <td>
+          <button class="btn btn-edit" routerLink="/consultas/editar/301">Editar</button>
+          <button class="btn btn-delete">Cancelar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>302</td>
+        <td>Maria Oliveira</td>
+        <td>Dr. Pedro Santos</td>
+        <td>2025-07-02</td>
+        <td>14:30</td>
+        <td>Confirmada</td>
+        <td>
+          <button class="btn btn-edit" routerLink="/consultas/editar/302">Editar</button>
+          <button class="btn btn-delete">Cancelar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
