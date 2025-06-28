@@ -1,0 +1,45 @@
+/* Estilos básicos para a Navbar */
+.navbar {
+  background-color: #007bff; /* Cor de fundo azul */
+  padding: 1rem 0; /* Espaçamento interno */
+  color: white; /* Cor do texto */
+}
+
+.navbar .container {
+  display: flex; /* Para alinhar itens na horizontal */
+  justify-content: space-between; /* Espaçamento entre marca e links */
+  align-items: center; /* Alinhamento vertical */
+  max-width: 1200px; /* Largura máxima do conteúdo */
+  margin: 0 auto; /* Centralizar na página */
+  padding: 0 15px; /* Espaçamento lateral */
+}
+
+.navbar-brand {
+  color: white; /* Cor da marca */
+  text-decoration: none; /* Sem sublinhado */
+  font-size: 1.5rem; /* Tamanho da fonte da marca */
+  font-weight: bold; /* Negrito */
+}
+
+.navbar-nav {
+  list-style: none; /* Remove marcadores de lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Para alinhar itens de navegação na horizontal */
+}
+
+.nav-item {
+  margin-left: 20px; /* Espaçamento entre os itens de navegação */
+}
+
+.nav-link {
+  color: white; /* Cor dos links */
+  text-decoration: none; /* Sem sublinhado */
+  padding: 0.5rem 1rem; /* Espaçamento interno dos links */
+  transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+  border-radius: 5px; /* Cantos arredondados */
+}
+
+.nav-link:hover, .nav-link.active {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse ou ativo */
+}
